@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/*border-style: none;*/
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+header {
+	width: 100%;
+	padding: 20px 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+header .headline{
+	font-size:40px;
+}
+
+.nav-list {
+ 	border-top: 1px solid #000;
+ 	border-bottom: 1px solid #000;
+ 	text-align: center;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+
+.nav-list-item {
+	list-style: none;
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.kuuhaku {
+	text-align: center;
+	height: 50px;
+}
+
+.main {
+	height: 200px;
+	width: 800px;
+	font-size:0;
+	margin:auto;
+}
+
+.a1 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #e6ffe9;
+}
+
+.a2 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #cbffd3;
+}
+
+.a3 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #aeffbd;
+}
+
+.a4 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #93ffab;
+}
+
+.b1 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #f3ffd8;
+}
+
+.b2 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #edffbe;
+}
+
+.b3 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #e9ffa5;
+}
+
+.b4 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #e4ff8d;
+}
+
+.c1 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #d9e5ff;
+}
+
+.c2 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #bad3ff;
+}
+
+.c3 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #a4c6ff;
+}
+
+.c4 {
+	width: 200px;
+	height: 200px;
+	display: inline-block;
+	background-color: #8eb8ff;
+}
+
+.sidebar {
+	width: 240px;
+	height: 1400px;
+	float: left;
+}
+
+
+footer {
+	width:100%;
+	height:120px;
+	text-align: center;
+	padding: 50px 0;
+	background-color: #848282
+}
+
+.footer-text{
+	color: #fff;
+}
